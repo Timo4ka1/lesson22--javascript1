@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 22</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <h1>
+            Вчу <span class="yellow">JavaScript </span> :)
+         </h1>
+         <h6>Бігом у консоль!</h6>
+      </header>
+      <main class="page">
+         <div class="hw--title">Домашка 1</div>
+         <div class="errors">
+            <div class="errors__hw">
+               <ul class="errors__hw items">
+                  <li class="green">"use strict"</li>
+                  <li>console.log ('Hello World!');</li>
+               </ul>
+            </div>
+         </div>
+
+         <div class="hw--title">Домашка 2</div>
+         <div class="errors">
+            <div class="errors__hw">
+               <ul class="errors__hw items">
+                  <li>console.log ('Учим JS')</li>
+                  <ul>
+                     <li>console.log ('JS')</li>
+                     <li>console.log ('Учим')</li>
+                  </ul>
+
+                  <ul>
+                     <li class="red">console.log ('Учим') console.log ('JS')</li>
+                     <li class="yellow">Треба поставити ; після об'влення 1-ї змінної</li>
+                  </ul>
+
+                  <ul class="red">
+                     <li>console.log ('Учим);</li>
+                     <li>console.log ('JS');</li>
+                     <li class="yellow">незакриті лапки</li>
+                  </ul>
+               </ul>
+            </div>
+         </div>
+
+         <div class="hw--title">Домашка 3</div>
+         <div class="errors">
+            <div class="errors__hw">
+               <ul class="errors__hw items">
+                  <li class="red">let user = 'Вася' let age = 36</li>
+
+                  <ul>
+                     <li>let myage = 36;</li>
+                     <li class="yellow">Працює, але є недотримування lowerCamelCase</li>
+                  </ul>
+
+                  <li>const BLOCK_SIZE = 14 + 50;</li>
+
+                  <li>const BLOCK_HEIGHT = 100;</li>
+
+                  <ul>
+                     <p> if (true) { </p>
+                     <p>var size = 15;</p>
+                     <p>}</p>
+                     <p>console.log(size);</p>
+                     </li>
+                  </ul>
+               </ul>
+            </div>
+         </div>
+
+         <div class="hw--title">Домашка 4</div>
+         <div class="errors">
+            <div class="errors__hw">
+               <ul class="errors__hw items">
+                  <ul class="red">
+                     <li>let userAge = 36;</li>
+                     <li>let userInfo = "Фрилансер ${userAge}";</li>
+                     <li class="yellow">замість "" треба поставити ``</li>
+                  </ul>
+
+                  <ul>
+                     <li>let userHeight = 145 / 0;</li>
+                     <li>console.log(userHeight);</li>
+                     <li class="yellow">Викноується, але вівиодить "Infinity"</li>
+                  </ul>
+
+                  <ul>
+                     <li>let userName;</li>
+                     <li>console.log(typeof userName);</li>
+                     <li class="yellow">виводить undefined</li>
+                  </ul>
+
+                  <ul>
+                     <li>let userSize = "45" / "8";</li>
+                     <li>console.log(typeof userSize);</li>
+                  </ul>
+               </ul>
+            </div>
+         </div>
+      </main>
+      <footer class="footer"></footer>
+   </div>
+
+   <script src="js/script.js"></script>
+</body>
+
+</html>
